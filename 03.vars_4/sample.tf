@@ -1,7 +1,7 @@
 # 3. Map varaible; Map of Maps
 #    And how to access a Map variable
 
-varaible "fruit_stock_with_price" {
+variable "fruit_stock_with_price" {
   default = {
     papaya = {
       stock = 100
@@ -12,4 +12,8 @@ varaible "fruit_stock_with_price" {
       price = 2
     }
   }
+}
+
+output "papaya_price" {
+  value = var.fruit_stock_with_price.papaya.price
 }
