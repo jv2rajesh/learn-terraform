@@ -5,8 +5,8 @@ variable "fruits" {
 
 # How to access a list Variable; List index starts from Zero
 output "fruit_first" {
-  value = var.fruit_stock[0]
+  value = var.fruits[0]
 }
 output "fruit_second" {
-  value = var.fruit_stock[1]
+  value = var.fruits[1]
 }
