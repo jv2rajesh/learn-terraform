@@ -2,7 +2,7 @@ variable "fruits" {
   default = [ "apple", "banana"]
 }
 output "fruit" {
-  value = element(var.fruits,2)
+  value = element(var.fruits,1)
 }
 
 variable "fruit_with_stock" {
