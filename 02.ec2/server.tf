@@ -9,7 +9,7 @@ resource "aws_instance" "test" {
 }
 resource "aws_route53_record" "test" {
   zone_id = "Z007817518CXIKGSGIF7E"
-  name    = "HelloWorld-dev.jv2rajesh.online"
+  name    = "test-dev.jv2rajesh.online"
   type    = "A"
   ttl     = 30
   records = [aws_instance.test.private_ip]
