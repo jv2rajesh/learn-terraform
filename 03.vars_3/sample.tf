@@ -16,4 +16,6 @@ output "fruit_stock_banana" {
   value = var.fruit_stock["banana"]
 }
 
+
+
 # value = var.fruit_stock.apple     also working
