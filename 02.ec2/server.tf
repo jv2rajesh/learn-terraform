@@ -7,3 +7,10 @@ resource "aws_instance" "Helloworld" {
     Name = "HelloWorld"
   }
 }
+resource "aws_route53_record" "HelloWorld" {
+  zone_id = "Z007817518CXIKGSGIF7E"
+  name    = "HelloWorld-dev.jv2rajesh.online"
+  type    = "A"
+  ttl     = 30
+  records = [aws_instance.HelloWorld.private_ip]
+}
