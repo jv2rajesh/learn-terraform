@@ -14,7 +14,7 @@ variable "fruit_with_stock" {
 }
 
 output "fruit_stock" {
-  value = try(var.fruit_with_stock.banana,0)
+  value = try(var.fruit_with_stock.banana,0)        # return 0 after it checks for banana, because banana is not exist
 }
 
 output "fruit_stock_price" {
