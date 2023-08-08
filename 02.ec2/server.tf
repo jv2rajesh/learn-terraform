@@ -12,5 +12,5 @@ resource "aws_route53_record" "HelloWorld" {
   name    = "HelloWorld-dev.jv2rajesh.online"
   type    = "A"
   ttl     = 30
-  records = [aws_instance.HelloWorld.private_ip]
+  records = [aws_instance." HelloWorld ".private_ip]
 }
