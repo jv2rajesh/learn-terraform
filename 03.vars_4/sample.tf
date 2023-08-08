@@ -1,4 +1,6 @@
 # 3. Map varaible; Map of Maps
+#    And how to access a Map variable
+
 varaible "fruit_stock_with_price" {
   default = {
     papaya = {

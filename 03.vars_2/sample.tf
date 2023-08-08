@@ -1,9 +1,10 @@
 # 1. list variable
+#    And how to access a list Variable; List index starts from Zero
+
 variable "fruits" {
   default = [ "apple", "banana" ]
 }
 
-# How to access a list Variable; List index starts from Zero
 output "fruit_first" {
   value = var.fruits[0]
 }

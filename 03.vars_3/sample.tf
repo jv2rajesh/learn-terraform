@@ -1,4 +1,7 @@
 # 2. Map variable, Plain
+#    And how to access a Map Variable; List index starts from Zero
+
+
 variable "fruit_stock" {
   default = {
     apple = 100
@@ -6,10 +9,9 @@ variable "fruit_stock" {
   }
 }
 
-# How to access a list Variable; List index starts from Zero
-output "fruit_first" {
-  value = var.fruit_stock[0]
+output "fruit_stock_apple" {
+  value = var.fruit_stock["apple"]
 }
-output "fruit_second" {
-  value = var.fruit_stock[1]
+output "fruit_stock_banana" {
+  value = var.fruit_stock["banana"]
 }
