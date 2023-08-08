@@ -17,3 +17,6 @@ variable "fruit_stock_with_price" {
 output "papaya_price" {
   value = var.fruit_stock_with_price["papaya"].price
 }
+
+
+# value = var.fruit_stock_with_price.papaya.price     also working
