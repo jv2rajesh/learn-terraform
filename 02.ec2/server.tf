@@ -7,7 +7,7 @@ resource "aws_instance" "test" {
     Name = "HelloWorld"
   }
 }
-resource "aws_route53_record" "test2" {
+resource "aws_route53_record" "test" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "HelloWorld-dev.jv2rajesh.online"
   type    = "A"
