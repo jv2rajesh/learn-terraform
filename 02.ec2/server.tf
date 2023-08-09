@@ -7,4 +7,4 @@ resource "aws_instance" "instance" {
   }
 }
 
-/*got to .... for reference*/
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance

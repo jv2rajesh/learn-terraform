@@ -19,3 +19,5 @@ resource "aws_route53_record" "record" {
 #  in early sessions about "allow-all"
 
 # zone_id: we can get it from Route 53 - Hosted Zone details
+
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record
