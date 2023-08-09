@@ -13,3 +13,5 @@ resource "aws_instance" "instance" {
     Name = element(var.components, count.index)
   }
 }
+
+# count has many disadvantages and we are not going to use
