@@ -13,4 +13,6 @@ resource "aws_security_group" "allow_tls" {
 
 
 # keys are frontend, mongodb etc
-# values are { name = "frontend_sg"} , { name = "mongodb_sg"}
+# values are { name = "frontend_sg"} , { name = "mongodb_sg"} etc
+
+# resource command from https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group

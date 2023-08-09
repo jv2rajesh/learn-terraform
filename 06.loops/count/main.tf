@@ -14,4 +14,4 @@ resource "aws_instance" "instance" {
   }
 }
 
-# count has many disadvantages and we are not going to use
+# count has many disadvantages and we are not going to use in realtime....we can use only if we have full knowledge on count usage and its outcome
