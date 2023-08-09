@@ -7,7 +7,7 @@ resource "aws_instance" "frontend" {
     Name = "frontend"
   }
 }
-resource "aws_route53_record" "frontend" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "frontend-dev.jv2rajesh.online"
   type    = "A"
@@ -24,7 +24,7 @@ resource "aws_instance" "mongodb" {
     Name = "mongodb"
   }
 }
-resource "aws_route53_record" "mongodb" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "mongodb-dev.jv2rajesh.online"
   type    = "A"
@@ -41,7 +41,7 @@ resource "aws_instance" "catalogue" {
     Name = "catalogue"
   }
 }
-resource "aws_route53_record" "catalogue" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "catalogue-dev.jv2rajesh.online"
   type    = "A"
@@ -58,7 +58,7 @@ resource "aws_instance" "redis" {
     Name = "redis"
   }
 }
-resource "aws_route53_record" "redis" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "redis-dev.jv2rajesh.online"
   type    = "A"
@@ -75,7 +75,7 @@ resource "aws_instance" "user" {
     Name = "user"
   }
 }
-resource "aws_route53_record" "user" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "user-dev.jv2rajesh.online"
   type    = "A"
@@ -91,7 +91,7 @@ resource "aws_instance" "mysql" {
     Name = "mysql"
   }
 }
-resource "aws_route53_record" "mysql" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "mysql-dev.jv2rajesh.online"
   type    = "A"
@@ -108,7 +108,7 @@ resource "aws_instance" "shipping" {
     Name = "shipping"
   }
 }
-resource "aws_route53_record" "shipping" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "shipping-dev.jv2rajesh.online"
   type    = "A"
@@ -125,7 +125,7 @@ resource "aws_instance" "rabbitmq" {
     Name = "rabbitmq"
   }
 }
-resource "aws_route53_record" "rabbitmq" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "rabbitmq-dev.jv2rajesh.online"
   type    = "A"
@@ -141,7 +141,7 @@ resource "aws_instance" "payment" {
     Name = "payment"
   }
 }
-resource "aws_route53_record" "payment" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "payment-dev.jv2rajesh.online"
   type    = "A"
@@ -157,7 +157,7 @@ resource "aws_instance" "cart" {
     Name = "cart"
   }
 }
-resource "aws_route53_record" "cart" {
+resource "aws_route53_record" "record" {
   zone_id = "Z007817518CXIKGSGIF7E"
   name    = "cart-dev.jv2rajesh.online"
   type    = "A"
