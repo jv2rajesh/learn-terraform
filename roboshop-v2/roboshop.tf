@@ -50,5 +50,6 @@ resource "aws_route53_record" "record" {
 }
 
 
-
 /* to understand records, please refer the session-27 @ 01:06:00 */
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance  - create AWS Instance
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record  - create DNS Record
