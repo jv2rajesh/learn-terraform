@@ -6,3 +6,5 @@ resource "aws_instance" "test" {
     Name = "test"
   }
 }
+
+/*got to .... for reference*/
