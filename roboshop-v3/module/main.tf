@@ -15,5 +15,5 @@ resource "aws_route53_record" "record" {
   name    = "${var.name}.jv2rajesh.online"
   type    = "A"
   ttl     = 30
-  records = [aws.instance.instance.private_ip]
+  records = [aws_instance.instance.private_ip]
 }
