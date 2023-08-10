@@ -18,7 +18,7 @@ resource "aws_route53_record" "record" {
   records = [aws_instance.instance.private_ip]
 }
 
-resource "null_resource" "ansible" {
+/*resource "null_resource" "ansible" {
 
   depends_on = [
     aws_route53_record.record
@@ -32,6 +32,6 @@ sleep 30
 ansible-playbook -i ${var.name}.jv2rajesh.online, main.yml -e ansible_user=centos -e ansible_password=DevOps321 -e component=${var.name}
 EOF
   }
-}
+}*/
 
 /*depends_on - Above null_resource will execute after creating a aws_route53 record*/
