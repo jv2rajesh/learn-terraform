@@ -26,6 +26,10 @@ output "test"{
   Terraform uses persisted state data to keep track of the resources it manages. Most non-trivial Terraform configurations either integrate with Terraform Cloud or use a backend to store state remotely. This lets multiple people access the state data and work together on that collection of infrastructure resources.
 
 */
-/* "08.state/terraform.tfstate"  - */
+
+/* "08.state/terraform.tfstate"  - is a object name we chose
+
+   For Reference: Goto Amazon S3 > Buckets > jv2rajesh > dev/
+*/
 
 /* session-29 */
