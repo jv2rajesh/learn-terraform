@@ -9,3 +9,7 @@ module "components" {
   instance_type         = each.value["instance_type"]
 }
 
+
+/*  ./module is local path */
+
+/* session-28 */
